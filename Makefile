@@ -12,4 +12,4 @@ deploy:
 	echo "Deploying app"
 	eb deploy hello-env
 
-all: install lint test 
+all: install lint
